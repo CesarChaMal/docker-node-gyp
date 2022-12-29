@@ -12,6 +12,7 @@ RUN apk add --no-cache \
    python3-dev \
    sqlite
 RUN pip3 install --upgrade pip
+#RUN mkdir -p /opt/showcase
 
 WORKDIR /opt/showcase
 
